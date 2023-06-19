@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qa-guru-python-5-13"
+version = "0.1.0"
+description = ""
+authors = ["John Smith <john@example.com>"]
+readme = "README.md"
+packages = [{include = "qa_guru_python_5_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "7.3.2"
+selene = "2.0.0rc2"
+allure-pytest = "^2.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
