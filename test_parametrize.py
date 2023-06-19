@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 from selene import browser
 """
-Переопределите параметр с помощью indirect параметризации на уровне теста 
+Переопределите параметр с помощью indirect параметризации на уровне теста
 """
 
 
